@@ -1,0 +1,1036 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\richa\\Documents\\GitHub\\uSPX\\Electronics\\LiPO_SharePower\\LiPO_SharePower.kicad_sch")
+		(date "2026-09-29T12:49:59")
+		(tool "Eeschema 10.0.4")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "LiPO_SharePower.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "470uF")
+			(footprint "Capacitor_SMD:CP_Elec_8x10")
+			(description "Polarized capacitor")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:CP_Elec_8x10")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Polarized")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8564889b-a2e6-47c9-a83d-cdf67fa84b36")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "VS-30BQ100-M3_9AT")
+			(footprint "uSPX_pretty:DIOM7959X262N")
+			(datasheet "https://www.vishay.com/docs/93360/vs-30bq100m.pdf")
+			(description "Vishay VS-30BQ100-M3/9AT SMT Schottky Diode, 100V 3A, 2-Pin DO-214AB")
+			(fields
+				(field
+					(name "Height") "2.62")
+				(field
+					(name "Manufacturer_Name") "Vishay")
+				(field
+					(name "Manufacturer_Part_Number") "VS-30BQ100-M3/9AT")
+				(field
+					(name "Mouser Part Number") "78-VS-30BQ100-M39AT")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30BQ100-M3-9AT?qs=asPD7ZL2j3UbTDGAWRguoA%3D%3D")
+				(field
+					(name "Arrow Part Number") "VS-30BQ100-M3/9AT")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/vs-30bq100-m39at/vishay?utm_currency=USD&region=europe")
+				(field
+					(name "Footprint") "uSPX_pretty:DIOM7959X262N")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/93360/vs-30bq100m.pdf")
+				(field
+					(name "Description") "Vishay VS-30BQ100-M3/9AT SMT Schottky Diode, 100V 3A, 2-Pin DO-214AB")
+			)
+			(libsource
+				(lib "VS-30BQ100-M3")
+				(part "VS-30BQ100-M3_9AT")
+				(description "Vishay VS-30BQ100-M3/9AT SMT Schottky Diode, 100V 3A, 2-Pin DO-214AB")
+			)
+			(property
+				(name "Height")
+				(value "2.62")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Vishay")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "VS-30BQ100-M3/9AT")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "78-VS-30BQ100-M39AT")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30BQ100-M3-9AT?qs=asPD7ZL2j3UbTDGAWRguoA%3D%3D")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "VS-30BQ100-M3/9AT")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "https://www.arrow.com/en/products/vs-30bq100-m39at/vishay?utm_currency=USD&region=europe")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "22f2d77f-4f62-4fd3-bae3-94432eb7af8b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H1")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "472c4de9-b1e6-4686-a4fd-d923789025ca")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H2")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6f7f96b2-64bf-4b9e-82bf-2718e394be0f")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H3")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "20871a2f-3fea-4548-97dd-68cfb5e755b6")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "H4")
+			(value "MountingHole")
+			(footprint "MountingHole:MountingHole_2.2mm_M2")
+			(description "Mounting Hole without connection")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole")
+				(description "Mounting Hole without connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d641819c-6736-4cd8-a0bc-8719326c482d")
+			(units
+				(unit
+					(name "A")
+					(pins)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Buck Converter and TP4096 outputs")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x03, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x03_Pin")
+				(description "Generic connector, single row, 01x03, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "07e14897-7ac1-4f68-9d06-97a6b8a5e63d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Load")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Pin")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "abe1aa0e-b600-4493-b2a9-6805703e5d21")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "AO3413")
+			(footprint "uSPX_pretty:SOT95P280X125-3N")
+			(datasheet "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-AOS/DSAAOS100015.pdf")
+			(description "Trans MOSFET P-CH 20V 3A 3-Pin SOT-23")
+			(fields
+				(field
+					(name "Height") "1.25")
+				(field
+					(name "Manufacturer_Name") "Alpha & Omega Semiconductors")
+				(field
+					(name "Manufacturer_Part_Number") "AO3413")
+				(field
+					(name "Mouser Part Number")
+				)
+				(field
+					(name "Mouser Price/Stock")
+				)
+				(field
+					(name "Arrow Part Number") "AO3413")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ao3413/alpha-and-omega-semiconductor?utm_currency=USD&region=nac")
+				(field
+					(name "Footprint") "uSPX_pretty:SOT95P280X125-3N")
+				(field
+					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-AOS/DSAAOS100015.pdf")
+				(field
+					(name "Description") "Trans MOSFET P-CH 20V 3A 3-Pin SOT-23")
+			)
+			(libsource
+				(lib "A03413")
+				(part "AO3413")
+				(description "Trans MOSFET P-CH 20V 3A 3-Pin SOT-23")
+			)
+			(property
+				(name "Height")
+				(value "1.25")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "Alpha & Omega Semiconductors")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "AO3413")
+			)
+			(property
+				(name "Mouser Part Number")
+				(value "")
+			)
+			(property
+				(name "Mouser Price/Stock")
+				(value "")
+			)
+			(property
+				(name "Arrow Part Number")
+				(value "AO3413")
+			)
+			(property
+				(name "Arrow Price/Stock")
+				(value "https://www.arrow.com/en/products/ao3413/alpha-and-omega-semiconductor?utm_currency=USD&region=nac")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7d608e4-6280-4d11-945c-029bf3126947")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
+			(description "Resistor")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "LiPO_SharePower")
+			)
+			(property
+				(name "Sheetfile")
+				(value "LiPO_SharePower.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6c9c3b3e-51ca-441d-b0c1-b8d661b71802")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "A03413")
+			(part "AO3413")
+			(description "Trans MOSFET P-CH 20V 3A 3-Pin SOT-23")
+			(docs "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-AOS/DSAAOS100015.pdf")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "AO3413")
+				(field
+					(name "Footprint") "SOT95P280X125-3N")
+				(field
+					(name "Datasheet") "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-AOS/DSAAOS100015.pdf")
+				(field
+					(name "Description") "Trans MOSFET P-CH 20V 3A 3-Pin SOT-23")
+				(field
+					(name "Height") "1.25")
+				(field
+					(name "Manufacturer_Name") "Alpha & Omega Semiconductors")
+				(field
+					(name "Manufacturer_Part_Number") "AO3413")
+				(field
+					(name "Mouser Part Number")
+				)
+				(field
+					(name "Mouser Price/Stock")
+				)
+				(field
+					(name "Arrow Part Number") "AO3413")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/ao3413/alpha-and-omega-semiconductor?utm_currency=USD&region=nac")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "D")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "S")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x02_Pin")
+			(description "Generic connector, single row, 01x02, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x03_Pin")
+			(description "Generic connector, single row, 01x03, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x03_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x03, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Polarized")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Mechanical")
+			(part "MountingHole")
+			(description "Mounting Hole without connection")
+			(footprints
+				(fp "MountingHole*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole without connection")
+			)
+		)
+		(libpart
+			(lib "VS-30BQ100-M3")
+			(part "VS-30BQ100-M3_9AT")
+			(description "Vishay VS-30BQ100-M3/9AT SMT Schottky Diode, 100V 3A, 2-Pin DO-214AB")
+			(docs "https://www.vishay.com/docs/93360/vs-30bq100m.pdf")
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "VS-30BQ100-M3_9AT")
+				(field
+					(name "Footprint") "DIOM7959X262N")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/93360/vs-30bq100m.pdf")
+				(field
+					(name "Description") "Vishay VS-30BQ100-M3/9AT SMT Schottky Diode, 100V 3A, 2-Pin DO-214AB")
+				(field
+					(name "Height") "2.62")
+				(field
+					(name "Manufacturer_Name") "Vishay")
+				(field
+					(name "Manufacturer_Part_Number") "VS-30BQ100-M3/9AT")
+				(field
+					(name "Mouser Part Number") "78-VS-30BQ100-M39AT")
+				(field
+					(name "Mouser Price/Stock") "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-30BQ100-M3-9AT?qs=asPD7ZL2j3UbTDGAWRguoA%3D%3D")
+				(field
+					(name "Arrow Part Number") "VS-30BQ100-M3/9AT")
+				(field
+					(name "Arrow Price/Stock") "https://www.arrow.com/en/products/vs-30bq100-m39at/vishay?utm_currency=USD&region=europe")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Mechanical")
+			(uri "${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/5V")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "/Out+")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "D_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(D1-K)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "S_3")
+				(pintype "passive")
+			)
+		)
+	)
+)
