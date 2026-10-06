@@ -2810,8 +2810,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 6.35 0)
+			(property "Reference" "U4"
+				(at 0.635 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2820,8 +2820,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "LiCharger"
+				(at 0.254 -6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2830,7 +2830,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Modules_uSPX:LiCharger-03962"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2887,7 +2887,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2905,7 +2905,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3226,6 +3226,30 @@
 		(uuid "0c15d1d5-ee51-4fcb-9f97-43e99b8efc63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.7457 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 80.01 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f3f352d-f141-4069-bff6-161310b7869c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 29.9743 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3669,30 +3693,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 118.11 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70efc793-87c9-41d8-b322-598315125fa0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2262 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 54.61 52.07 0)
@@ -3981,19 +3981,19 @@
 			)
 		)
 	)
-	(global_label "BAT+"
+	(global_label "+5VSP"
 		(shape input)
-		(at 80.01 36.83 90)
+		(at 118.11 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9cb4f825-eca2-4e5d-ba11-d92e49181efa")
+		(uuid "9bcfcc46-c27a-45ba-8dcc-00e9f12f61e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 28.9462 90)
+			(at 108.7748 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +4001,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5028,7 +5028,7 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "bb87c0c2-edf8-46c6-b44b-fd3d76826e59")
 		)
 		(pin "6"
@@ -5037,7 +5037,7 @@
 		(pin "3"
 			(uuid "84e3069f-da5d-4e14-88ff-aaf3d0468965")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "7ece591b-9ddc-460b-abc3-e95b7e590fc1")
 		)
 		(pin "4"
